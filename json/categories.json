@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Caméras"
+    },
+    {
+        "id": 2,
+        "name": "Tables de mixage"
+    },
+    {
+        "id": 3,
+        "name": "Eclairage"
+    },
+    {
+        "id": 4,
+        "name": "Accessoires Vidéo"
+    },
+    {
+        "id": 5,
+        "name": "Microphones"
+    }
+]

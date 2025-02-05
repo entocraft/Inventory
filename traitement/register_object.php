@@ -14,8 +14,8 @@ if ($conn->connect_error) {
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get the object from the form
     $name = htmlspecialchars(trim($_POST['name']));
-    $ref = htmlspecialchars(trim($_POST['reference_number']));
-    $category = htmlspecialchars(trim($_POST['category']));
+    $ref = htmlspecialchars(trim($_POST['ref']));
+    $category = htmlspecialchars(trim($_POST['cat']));
     $desc = htmlspecialchars(trim($_POST['description']));
 
     // Check if the reference number already exists in the database
